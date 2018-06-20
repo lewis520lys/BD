@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+`   <include layout="@layout/layout_head"/>
+    <LinearLayout
+        android:paddingBottom="@dimen/dp20"
+        android:gravity="bottom"
+        android:paddingRight="@dimen/dp30"
+        android:paddingLeft="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp130">
+    <TextView
+        android:textColor="@color/black33"
+        android:textSize="@dimen/dp32"
+        android:text="验证码"
+        android:layout_width="@dimen/dp150"
+        android:layout_height="wrap_content" />
+        <EditText
+            android:background="@null"
+            android:layout_marginLeft="@dimen/dp20"
+            android:textColor="@color/black99"
+            android:textSize="@dimen/dp32"
+            android:hint="请输入验证码"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_yzm"
+            android:textColor="@color/com_blue"
+            android:textSize="@dimen/dp26"
+            android:text="@string/send_yzm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_marginLeft="@dimen/dp20"
+        android:background="@color/black_aa"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:paddingBottom="@dimen/dp20"
+        android:gravity="bottom"
+        android:paddingRight="@dimen/dp30"
+        android:paddingLeft="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp130">
+    <TextView
+        android:textColor="@color/black33"
+        android:textSize="@dimen/dp32"
+        android:text="新密码"
+        android:layout_width="@dimen/dp150"
+        android:layout_height="wrap_content" />
+        <EditText
+            android:background="@null"
+            android:layout_marginLeft="@dimen/dp20"
+            android:textColor="@color/black99"
+            android:textSize="@dimen/dp32"
+            android:hint="请输入新密码"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_marginLeft="@dimen/dp20"
+        android:background="@color/black_aa"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:paddingBottom="@dimen/dp20"
+        android:gravity="bottom"
+        android:paddingRight="@dimen/dp30"
+        android:paddingLeft="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp130">
+    <TextView
+        android:textColor="@color/black33"
+        android:textSize="@dimen/dp32"
+        android:text="确认密码"
+        android:layout_width="@dimen/dp150"
+        android:layout_height="wrap_content" />
+        <EditText
+            android:background="@null"
+            android:layout_marginLeft="@dimen/dp20"
+            android:textColor="@color/black99"
+            android:textSize="@dimen/dp32"
+            android:hint="请再次输入新密码"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_marginLeft="@dimen/dp20"
+        android:background="@color/black_aa"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <Button
+        android:id="@+id/bt_comit"
+        android:textSize="@dimen/dp38"
+        android:background="@drawable/bt_blue_circle"
+        android:textColor="@color/white"
+        android:text="@string/comit"
+        android:layout_marginRight="@dimen/dp40"
+        android:layout_marginLeft="@dimen/dp40"
+        android:layout_marginTop="@dimen/d100"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp80" />
+</LinearLayout>

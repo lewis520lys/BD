@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/root"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/head"
+        layout="@layout/layout_head"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp120">
+        <ImageView
+            android:src="@mipmap/logo"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="@dimen/dp80" />
+        <LinearLayout
+            android:layout_marginLeft="@dimen/dp20"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black33"
+                android:textSize="@dimen/dp30"
+                android:text="客服"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="@dimen/dp15"
+                android:textColor="@color/black66"
+                android:textSize="@dimen/dp24"
+                android:text="北斗社区客服"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:paddingLeft="@dimen/dp30"
+        android:gravity="center_vertical"
+        android:background="@color/black_ee"
+        android:textSize="@dimen/dp24"
+        android:textColor="@color/black66"
+        android:text="我的好友"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/contanier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+</LinearLayout>

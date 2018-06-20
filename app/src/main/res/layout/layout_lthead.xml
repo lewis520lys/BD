@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d340">
+        <com.youth.banner.Banner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.youth.banner.Banner>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d320">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:paddingRight="@dimen/dp30"
+        android:paddingLeft="@dimen/dp30"
+        android:layout_marginBottom="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d140">
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="@dimen/dp66"
+            android:layout_height="@dimen/dp66" />
+        <View
+            android:layout_marginRight="@dimen/dp20"
+            android:layout_marginLeft="@dimen/dp20"
+            android:background="@color/black_ee"
+            android:layout_width="1px"
+            android:layout_height="@dimen/dp66"/>
+        <com.taobao.library.VerticalBannerView
+            android:id="@+id/vbanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:gap="2000"
+            app:animDuration="900"/>
+
+    </LinearLayout>
+</LinearLayout>

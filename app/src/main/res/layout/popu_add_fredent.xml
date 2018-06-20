@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:background="#000000"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/ll_add"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d100">
+        <ImageView
+            android:layout_marginLeft="@dimen/dp30"
+            android:src="@mipmap/jyicon"
+            android:layout_width="@dimen/dp38"
+            android:layout_height="@dimen/dp38" />
+        <TextView
+            android:layout_marginLeft="@dimen/dp15"
+            android:text="@string/addFriend"
+            android:textSize="@dimen/dp30"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_ss"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d100">
+        <ImageView
+            android:layout_marginLeft="@dimen/dp30"
+            android:src="@mipmap/saosao"
+            android:layout_width="@dimen/dp38"
+            android:layout_height="@dimen/dp38" />
+        <TextView
+            android:layout_marginLeft="@dimen/dp15"
+            android:text="@string/saosao"
+            android:textSize="@dimen/dp30"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_jh"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d100">
+        <ImageView
+            android:layout_marginLeft="@dimen/dp30"
+            android:src="@mipmap/jhuoicon"
+            android:layout_width="@dimen/dp38"
+            android:layout_height="@dimen/dp38" />
+        <TextView
+            android:layout_marginLeft="@dimen/dp15"
+            android:text="@string/friendJihuo"
+            android:textSize="@dimen/dp30"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BD</string>
+    <string name="message_permission_always_failed">我们需要这些权限, 请在设置里授权:\n\n%1$s</string>
+    <string name="message_permission_rationale">授予以下权限以继续该程序:\n\n%1$s</string>
+    <string name="title_dialog">提示</string>
+    <string name="setting">设置</string>
+    <string name="resume">继续</string>
+    <string name="cancel">取消</string>
+    <string name="no">NO</string>
+    <string name="successfully">授权成功</string>
+    <string name="failure">授权失败</string>
+    <string name="hy">好友</string>
+    <string name="wb">挖宝</string>
+    <string name="sq">社区</string>
+    <string name="wd">我的</string>
+    <string name="phone">手机号</string>
+    <string name="yzm">验证码</string>
+    <string name="pwd">密码</string>
+    <string name="hint_phone">请输入手机号</string>
+    <string name="hint_yzm">请输入验证码</string>
+    <string name="send_yzm">发送验证码</string>
+    <string name="hint_pwd">请设置登录密码</string>
+    <string name="reg">注册</string>
+    <string name="hint_input_pwd">请输入密码</string>
+    <string name="new_reg">新用户注册</string>
+    <string name="forget_pwd">忘记密码？</string>
+    <string name="bt_login">登录</string>
+    <string name="hint_two_pwd">请再次输入新密码</string>
+    <string name="hint_new_pwd">请输入新密码</string>
+    <string name="comit">确定</string>
+    <string name="next">下一步</string>
+    <string name="addFriend">加好友</string>
+    <string name="saosao">扫一扫</string>
+    <string name="friendJihuo">好友激活</string>
+    <string name="wodeqianbao">我的钱包</string>
+    <string name="hint_yqm">邀请码</string>
+</resources>

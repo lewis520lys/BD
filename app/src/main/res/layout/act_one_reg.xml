@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/root"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_head"/>
+
+    <LinearLayout
+    android:layout_marginTop="@dimen/dp332"
+    android:orientation="horizontal"
+    android:layout_marginRight="@dimen/dp40"
+    android:layout_marginLeft="@dimen/dp40"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+    android:id="@+id/et_phone"
+        android:inputType="number"
+    android:textSize="@dimen/dp32"
+    android:background="@null"
+    android:textColorHint="@color/black99"
+    android:hint="@string/hint_phone"
+        android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/iv_select"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_quhao"
+                android:textColor="@color/black33"
+                android:textSize="@dimen/dp32"
+                android:text="0086"
+                android:layout_marginRight="5px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+
+                android:layout_marginTop="6px"
+                android:src="@mipmap/haoxuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        </LinearLayout>
+
+    <View
+    android:layout_marginTop="@dimen/dp20"
+    android:layout_marginRight="@dimen/dp40"
+    android:layout_marginLeft="@dimen/dp40"
+    android:background="@color/black_aa"
+    android:layout_width="match_parent"
+    android:layout_height="1px"/>
+    <Button
+        android:id="@+id/bt_next"
+        android:textSize="@dimen/dp38"
+        android:background="@drawable/bt_blue_circle"
+        android:textColor="@color/white"
+        android:text="@string/next"
+        android:layout_marginRight="@dimen/dp40"
+        android:layout_marginLeft="@dimen/dp40"
+        android:layout_marginTop="@dimen/dp130"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp80" />
+</LinearLayout>

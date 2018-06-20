@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/com_blue"
+    android:layout_height="@dimen/dp130">
+    <RelativeLayout
+        android:paddingLeft="@dimen/dp30"
+        android:paddingRight="@dimen/dp30"
+         android:layout_marginTop="@dimen/dp40"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_back"
+            android:src="@mipmap/back"
+            android:layout_width="@dimen/dp44"
+            android:layout_height="@dimen/dp44" />
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_back"
+            android:layout_marginLeft="@dimen/dp15"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp38"
+            android:text="标题"
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:id="@+id/iv1"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="@dimen/dp44"
+            android:layout_height="@dimen/dp44" />
+            <ImageView
+                 android:visibility="gone"
+                 android:layout_marginRight="@dimen/dp75"
+                 android:layout_toLeftOf="@+id/iv1"
+                android:id="@+id/iv2"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="@dimen/dp44"
+                android:layout_height="@dimen/dp44" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_marginRight="@dimen/dp75"
+                android:layout_toLeftOf="@+id/iv2"
+                android:id="@+id/iv3"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="@dimen/dp44"
+                android:layout_height="@dimen/dp44" />
+            <TextView
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp30"
+                android:text="功能"
+                android:id="@+id/tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

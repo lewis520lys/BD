@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="20sp"
+
+        android:gravity="center"
+        android:text="修改昵称"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50" />
+    <EditText
+        android:id="@+id/et_nick"
+        android:layout_marginTop="@dimen/dp20"
+        android:hint="请输入"
+        android:layout_marginLeft="@dimen/dp80"
+        android:layout_marginRight="@dimen/dp80"
+        android:gravity="center"
+        android:background="@drawable/bt_white_circle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp80" />
+    <LinearLayout
+        android:layout_marginTop="@dimen/d40"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:background="@drawable/bt_red_circle"
+            android:text="取消"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bt_comit"
+            android:background="@drawable/bt_blue_circle"
+            android:text="确定"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
